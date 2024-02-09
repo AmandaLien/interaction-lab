@@ -2,6 +2,8 @@ body{
     margin-bottom: 15px;
     padding-left: 40px;
     padding-right: 75px;
+    background-color: rgb(229, 203, 170);
+    color:rgb(96, 58, 18);
 }
 h1{
     padding: 0px;
@@ -16,10 +18,13 @@ h3{
     font-size: 45px;
 }
 li{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
 }
 
+.steps-pic{
+    width: 350px;
+}
 .intro-text{
     font-size: 25px;
     padding-top: 0;
@@ -29,4 +34,7 @@ li{
     font-size: 18px;
     line-height: 1.6;
     padding-left: 20px;
+}
+.weird-pic{
+    width: 350px;
 }
