@@ -18,3 +18,6 @@ h2{
 p{
     font-size: 45px;
 }
+li{
+    list-style-type: none;
+}
