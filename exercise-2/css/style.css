@@ -1,8 +1,9 @@
 body{
-    background: linear-gradient(270deg,beige 0% ,tan 35%); 
+    background: linear-gradient(270deg,beige 0% ,rgb(213, 185, 149) 50%); 
     color: rgb(117, 63, 38);
     margin-bottom: 0;
     padding-bottom: 0;
+    font-family: "the-seasons", sans-serif;
 }
 h1{
     padding: 0px;
@@ -12,15 +13,17 @@ h1{
     padding-right: 75px;
     margin: 0px;
     font-size: 90px;
-    color: rgb(147, 81, 0);
+    color: rgb(115, 69, 13);
+    font-style: bold;
+    font-weight: 800;
 }
-h3{
-    padding: 0px;
-    margin: 0px;
+h2{
     margin-bottom: 15px;
-    padding-left: 40px;
+    padding-left: 15px;
     padding-right: 75px;
-    font-size: 45px;
+    font-size: 35px;
+    font-style: bold;
+    font-weight: 900;
 }
 li{
     margin-bottom: 15px;
@@ -28,33 +31,34 @@ li{
     padding-right: 75px;
     margin-left: 20px;
     font-size: 20px;
-    line-height: 1.6;
-    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    font-weight: 1000;
+    font-style: normal;
 }
-img {
+img{
     max-inline-size: 100%;
     max-block-size: 100%;
+    padding-top: 10px;
 }
 
 .steps-pic{
     width: 300px;
 }
 .intro-text{
-    margin-bottom: 15px;
+    margin-bottom: 60px;
     padding-left: 40px;
     padding-right: 75px;
     font-size: 25px;
     padding-top: 0;
     margin-top: 0;
-    font-family:Arial, Helvetica, sans-serif;
 }
 .other-texts{
     margin-bottom: 15px;
-    padding-left: 71px;
-    padding-right: 75px;
-    font-size: 18px;
-    line-height: 1.6;
-    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-right: 100px;
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 900;
 }
 .weird-pic{
     width: 300px;
