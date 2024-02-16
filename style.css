@@ -1,23 +1,37 @@
 body{
     background:linear-gradient(180deg, rgb(193.37, 171.94, 116.83) 0%, #C03A00 35%);
     color: aliceblue;
-    text-align: center; 
     height: 100%;
-    width: 100%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "keedy-sans", sans-serif;
+    font-weight: 400;
+    margin-left: 30px;
 }
 
 h1{
-    font-size: 120px;
+    font-size: 100px;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 h2{
-    font-size:  90px;
+    font-size:  80px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 p{
     font-size: 45px;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
 }
 li{
-    list-style-type: none;
+    list-style-type:none;
+    font-size: 35px;
+    margin-left: 20px;
+}
+a{
+    color: beige;
 }
