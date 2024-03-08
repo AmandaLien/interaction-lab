@@ -6,11 +6,7 @@ body{
     font-family: "the-seasons", sans-serif;
 }
 h1{
-    padding: 0px;
-    padding-top: 13px;
-    padding-bottom: 0px;
-    padding-left: 40px;
-    padding-right: 75px;
+    padding: 13px 75px 0px 40px;
     margin: 0px;
     font-size: 90px;
     color: rgb(115, 69, 13);
@@ -66,10 +62,11 @@ img{
 }
 
 footer{
-    text-align: center;
     background-color:rgb(147, 81, 0);
     color: rgb(241, 231, 189);
     font-size: 18px;
+    width: 300px;
+    margin: auto;
     padding-bottom: 0;
     padding: 30px;
 }

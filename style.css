@@ -1,3 +1,13 @@
+:root{
+    --text-color: aliceblue;
+    --heading-color: cornsilk;
+    --font1: "keedy-sans", sans-serif;
+    --text-size: clamp(8px, 5vw ,45px);
+    --big-text-size: clamp(10px, 5.5vw ,50px);
+    --margin-right: 35px;
+    --margin-left: 30px;
+
+}
 body{
     background:linear-gradient(180deg, rgb(193.37, 171.94, 116.83) 0%, #C03A00 35%);
     color: aliceblue;
@@ -8,30 +18,67 @@ body{
 }
 
 h1{
-    font-size: 100px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    font-size: clamp(30px, 10vw ,100px);
+    margin: 20px 0 10px 20px;
     color:cornsilk;
+
 }
 
 h2{
-    font-size:  70px;
-    margin-bottom: 10px;
-    margin-top: 0;
-    margin-bottom: 0;
+    font-size: clamp(15px, 7vw, 70px);
+    margin: 20px 0 10vh 20px;
     padding-bottom: 0;
 }
 
 p{
-    font-size: 45px;
+    font-size: var(--text-size);
     margin-bottom: 0;
     margin: 0;
     padding: 0;
 }
+
+.works-heading{
+    font-size: var(--big-text-size);
+}
+
+.courses{
+    display: flex;
+    justify-content: space-between;
+    color: #C03A00;
+}
+.box{
+    background-color: var(--heading-color);
+    padding: 2px 15px 2px 15px;
+    border-radius: 20px;
+}
+.lab-title{
+    margin-left: 20px;
+    
+}
+.studio-title{
+    margin-right: var(--margin-right);
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
 li{
     list-style-type:none;
     font-size: 35px;
-    margin-left: 20px;
+    margin-left: -15px;
+    font-size: var(--text-size);
+}
+.single{
+    margin-bottom: 20px;
+}
+.together{
+    margin-bottom: 5px;
+}
+.studio{
+    align-self: flex-end;
+    margin-right: var(--margin-right);
 }
 a{
     color:aliceblue;
