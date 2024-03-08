@@ -11,7 +11,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -52%);
 }
 .cell{
     width: calc(23vw / 9);
@@ -40,7 +40,7 @@ body{
 }
 
 .container:hover .round{
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .container:hover .border{
     background-color: rgb(163, 112, 87);
