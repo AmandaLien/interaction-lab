@@ -1,0 +1,26 @@
+body{
+    background-color: midnightblue;
+    color: floralwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: clamp(2vh,4.5vh, 8vh);
+}
+
+.whole{
+    position: absolute;
+    left: 50px;
+    height: 100%;
+    line-height: 8vh;
+}
+
+.assist{
+    position: absolute;
+    bottom: 35px;
+    background-color:rgba(250, 248, 215, 0.458);
+    padding: 1px;
+    color: midnightblue;
+}
+
+#poem span{
+    color: rgb(255, 231, 136);
+}
