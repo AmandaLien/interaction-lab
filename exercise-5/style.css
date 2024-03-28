@@ -1,0 +1,28 @@
+body{
+    overflow-y: hidden;
+    overflow-x: auto;
+    background-color: midnightblue;
+}
+
+.whole{
+    position: absolute;
+    left: -20px;
+    top: -20px;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin: 0 0 50px 0;
+    padding: 0;
+}
+
+.moon {
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    box-shadow: 10px 10px;
+}  
