@@ -32,7 +32,7 @@ function generateSanrio(){
     else if(input.value == "5"){
     character.innerHTML = "nemukko nyako";
     date.innerHTML = "may 25th"
-    image.src ="https://static.myfigurecollection.net/upload/entries/1/44020-43a48.jpg";
+    image.src ="https://www.sanrio.co.jp/wp-content/uploads/2022/06/list-nyago.png";
   }
     else if(input.value == "6"){
     character.innerHTML = "roonroonlulu";
@@ -73,7 +73,7 @@ function generateSanrio(){
     intro.innerHTML = "that's not a real month but okay<br><br>your buddy is:"
     character.innerHTML = "gudetama";
     date.innerHTML = "everyday is gudetama's birthday"
-    image.src ="https://w7.pngwing.com/pngs/917/919/png-transparent-animal-sitting-on-white-cloth-%E3%81%90%E3%81%A7%E3%81%9F%E3%81%BE-sticker-gudetama-smiley-desktop-wallpaper-emoticon-thumbnail.png";
+    image.src ="https://wallpapers.com/images/hd/gudetama-lazy-egg-character-4qic95pp968fpsep.png";
   }
    
 }
