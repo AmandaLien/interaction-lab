@@ -30,7 +30,7 @@ function generateSanrio(){
     image.src ="https://www.sanrio.co.jp/wp-content/uploads/2022/06/list-pompompurin.png";
   }
     else if(input.value == "5"){
-    character.innerHTML = "nemukko nyako";
+    character.innerHTML = "nemukko nyago";
     date.innerHTML = "may 25th"
     image.src ="https://www.sanrio.co.jp/wp-content/uploads/2022/06/list-nyago.png";
   }
@@ -73,7 +73,7 @@ function generateSanrio(){
     intro.innerHTML = "that's not a real month but okay<br><br>your buddy is:"
     character.innerHTML = "gudetama";
     date.innerHTML = "everyday is gudetama's birthday"
-    image.src ="https://wallpapers.com/images/hd/gudetama-lazy-egg-character-4qic95pp968fpsep.png";
+    image.src ="https://www.sanrio.co.jp/wp-content/uploads/2022/06/mv-gudetama.png";
   }
    
 }
