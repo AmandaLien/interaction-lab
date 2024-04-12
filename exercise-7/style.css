@@ -1,0 +1,66 @@
+body {
+    background-color: ivory;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 32px;
+    letter-spacing: -0.03em;
+    color: coral;
+}
+
+input[type="text"] {
+    width: 330px;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    background-color: ivory;
+    border: 2px pink solid;
+}
+
+input[type="button"] {
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    color: coral;
+    border: 3.5px pink solid;
+}
+
+#result{
+    width: 400px;
+    border: 10px pink dotted;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 18px;
+}
+#intro{
+    color: pink;
+}
+#name, #intro, #date{
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+}
+#name{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    color: skyblue;
+}
+#date{
+    color: skyblue;
+    margin-bottom: 5px;
+}
+#picture{
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+  
