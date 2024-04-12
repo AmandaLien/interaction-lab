@@ -8,7 +8,7 @@ let date = document.getElementById("date");
 
 //function
 function generateSanrio(){ 
-
+  intro.innerHTML = "your buddy is:"
   if(input.value == "1"){
     character.innerHTML = "chi chai monchan";
     date.innerHTML = "january 15th"
