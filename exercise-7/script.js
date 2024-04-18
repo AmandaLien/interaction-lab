@@ -74,7 +74,5 @@ function generateSanrio(){
     character.innerHTML = "gudetama";
     date.innerHTML = "everyday is gudetama's birthday"
     image.src ="https://www.sanrio.co.jp/wp-content/uploads/2022/06/mv-gudetama.png";
-  }
-   
+  } 
 }
-
