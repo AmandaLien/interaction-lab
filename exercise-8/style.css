@@ -1,0 +1,40 @@
+body {
+    font-size: 40px;
+    letter-spacing: -0.03em;
+    transition: 0.3s;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e3bc38bf-b82a-4ce8-8719-5c3c1a9c262e/dfyn6md-2affa7b0-70b6-424d-8744-f5cabde6874f.jpg/v1/fill/w_1192,h_670,q_70,strp/wii_menu_desktop_wallpaper_by_sambox436_dfyn6md-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZTNiYzM4YmYtYjgyYS00Y2U4LTg3MTktNWMzYzFhOWMyNjJlXC9kZnluNm1kLTJhZmZhN2IwLTcwYjYtNDI0ZC04NzQ0LWY1Y2FiZGU2ODc0Zi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FRdNYICkum3G2eUZibsfcu8fGvNURRHZukcJexNy6A0");
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+  #wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #timeHere{
+    font-family: 'Technology', sans-serif;
+    font-size: 5vw;
+    letter-spacing: 1vw;
+    position: absolute;
+    bottom: 11%;
+  }
+  
+  #timeDay{
+    font-family: 'Technology', sans-serif;
+    font-size: 3.4vw;
+    letter-spacing: 0.3vw;
+    position: absolute;
+    bottom: 11%;
+    right: 34%;
+  }
+  
+  #dateHere{
+    font-family: 'Avenir', sans-serif;
+    font-weight: 500;
+    font-size: 3vw;
+    letter-spacing: 0.3vw;
+    position: absolute;
+    bottom: 6%;
+  }
