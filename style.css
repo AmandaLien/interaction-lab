@@ -9,12 +9,13 @@
 
 }
 body{
-    background:linear-gradient(180deg, rgb(193.37, 171.94, 116.83) 0%, #C03A00 35%);
+    background:linear-gradient(180deg, #C03A00 0%,  rgb(193.37, 171.94, 116.83) 40%);
     color: aliceblue;
     height: 100%;
     font-family: "keedy-sans", sans-serif;
     font-weight: 400;
     margin-left: 30px;
+    transition: linear 1s;
 }
 
 h1{
@@ -80,6 +81,7 @@ li{
 .studio{
     align-self: flex-end;
     margin-right: var(--margin-right);
+    font-size: clamp(10px, 8vw ,52px);
 }
 a{
     color:aliceblue;
